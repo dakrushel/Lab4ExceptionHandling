@@ -14,7 +14,7 @@ namespace ExceptionHandlingActivity
 
         }
 
-        //
+        //Not sure why the exception message had to be here but it didn't work using the example from class
         public InvalidRadiusException(int radius): base($"Exception thrown. Radius of value: {radius} is not greater than zero.")
         {
             
